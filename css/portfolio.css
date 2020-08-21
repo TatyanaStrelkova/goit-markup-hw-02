@@ -1,0 +1,35 @@
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filter-items:hover,
+.filter-items:focus {
+  color: var(--main-white-color);
+  background-color: var(--hover-text-color);
+}
+
+/* Кнопки */
+
+.filter-items {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.text {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}

@@ -1,0 +1,75 @@
+/* секции */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: var(--second-bg-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  color: var(--main-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--main-white-color);
+  background-color: var(--hover-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Особенности */
+
+.features-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+.our-team {
+  background-color: var(--third-bg-color);
+}
+
+.member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list .member {
+  color: var(--title-text-color);
+}
+
+.our-team .text {
+  font-size: 16px;
+  line-height: 1.18;
+}

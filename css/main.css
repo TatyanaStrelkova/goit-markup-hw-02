@@ -1,0 +1,115 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --hover-text-color: #2196f3;
+  --second-white-color: rgba(255, 255, 255, 0.6);
+  --main-white-color: #ffffff;
+  --second-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+}
+
+body {
+  color: #757575;
+  background: var(--main-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* класс-утилита */
+.list {
+  list-style: none;
+}
+
+/* Шапка */
+
+/* logo */
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--hover-text-color);
+  font-family: Raleway, sans-serif;
+}
+
+.logo-studio {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+}
+
+/* навигация */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--hover-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-text-color);
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-item {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--hover-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--second-bg-color);
+}
+
+address {
+  font-style: normal;
+}
+
+.logo-studio-footer {
+  color: var(--main-white-color);
+  font-family: Raleway, sans-serif;
+}
+
+.footer .address {
+  color: var(--main-white-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer .mail {
+  color: var(--second-white-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer .tel {
+  color: var(--second-white-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
